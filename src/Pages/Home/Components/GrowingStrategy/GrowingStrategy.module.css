@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Heebo";
+}
+.clever {
+  font-family: "Heebo";
+  font-size: 100px;
+}
+
+.approach {
+  padding-left: 150px;
+}
+.approach span {
+  font-family: "Heebo";
+  font-size: 100px;
+  color: #7158dc;
+}
+.strategiesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.strategies {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 100px;
+}
+
+.strategies2 {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 100px;
+}
+
+.containerId2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+.imgId2 {
+  grid-column: 1;
+}
+.logoContainer {
+  background-color: #faf9fe;
+  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  font-size: 35px;
+  width: 400px;
+  padding: 20px 0;
+}
+
+.texts {
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.imgGirls {
+  border-radius: 50%;
+}
+
+.imgstyle {
+  margin-left: auto;
+}

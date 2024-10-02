@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: "Heebo";
+  padding: 50px;
+}
+
+.pfirst {
+  font-size: 130px;
+}
+.psec {
+  font-size: 130px;
+  color: #7158dc;
+}
+.pthr {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: grey;
+  width: 500px;
+}

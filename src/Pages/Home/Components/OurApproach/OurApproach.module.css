@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+  margin: 0;
+}
+.clever {
+  font-family: "Heebo";
+  font-size: 100px;
+}
+
+.approach {
+  padding-left: 150px;
+}
+
+.approach span {
+  font-family: "Heebo";
+  font-size: 100px;
+  color: #7158dc;
+}
+
+.itemsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+}
+
+.number {
+  color: #e4e5ed;
+  font-size: 100px;
+  font-family: "Heebo";
+}
+
+.title {
+  font-size: 54px;
+  font-family: "Heebo";
+}
+.text {
+  color: grey;
+  font-family: "Heebo";
+}
+
+.approachsContainer {
+  margin: 200px 0;
+}

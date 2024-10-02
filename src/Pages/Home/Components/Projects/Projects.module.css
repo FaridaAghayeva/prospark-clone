@@ -1,0 +1,20 @@
+.our {
+  font-family: "Heebo";
+  font-size: 100px;
+}
+.spark {
+  padding-left: 150px;
+}
+.spark span {
+  font-family: "Heebo";
+  font-size: 100px;
+  color: #7158dc;
+}
+
+.container {
+  box-sizing: border-box;
+  padding: 100px;
+}
+.items {
+  padding: 0;
+}

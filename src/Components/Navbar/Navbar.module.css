@@ -1,0 +1,74 @@
+@import "@fontsource/heebo";
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 50px 0 0;
+  align-items: center;
+  font-family: "Heebo";
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  z-index: 999;
+}
+
+.img {
+  width: 180px;
+}
+
+.liItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+
+  transition: all 0.3s;
+}
+.liItem {
+  color: #787c83;
+  text-decoration: none;
+}
+.liItem:hover {
+  color: rgb(44, 44, 119);
+  text-decoration: none;
+}
+
+.liItem.visited .liItem:active {
+  color: rgb(44, 44, 119);
+  text-decoration: none;
+}
+
+.cartContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.getin {
+  background-color: #18122f;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  text-align: center;
+  width: 190px;
+  justify-content: center;
+  border-radius: 15px;
+  box-sizing: border-box;
+  border: 1px solid #18122f;
+}
+.getin:hover {
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px solid #18122f;
+  color: black;
+}
+.liItems a.active {
+  color: #18122f;
+}
+.cart {
+  width: 25px;
+}

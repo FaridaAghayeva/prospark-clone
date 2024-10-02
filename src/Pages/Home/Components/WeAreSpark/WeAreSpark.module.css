@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+  margin: 0;
+}
+
+.weare {
+  font-family: "Heebo";
+  font-size: 100px;
+}
+.spark {
+  padding-left: 150px;
+}
+.spark span {
+  font-family: "Heebo";
+  font-size: 100px;
+  color: #7158dc;
+}
+
+.text {
+  font-size: 35px;
+  color: grey;
+  font-family: "Heebo";
+  width: 850px;
+  margin-left: 450px;
+}
+
+.img {
+  width: 600px;
+  height: 350px;
+  border-radius: 20px;
+  display: flex;
+  margin-left: auto;
+}
+
